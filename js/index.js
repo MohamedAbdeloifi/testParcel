@@ -1,4 +1,4 @@
-import {keydownSound, clickSound} from "D:/JAVASCRIPT/testParcel/js/functions";
+import {keydownSound, clickSound} from "/js/functions";
 
 keydownSound();
 
