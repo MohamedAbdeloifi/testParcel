@@ -67,7 +67,7 @@ button:focus{
 /* DECOMMENTER LES LIGNES EN DESSOUS ET COMPLETER LES 
   cela permettra d'ajouter une règle de mise en forme de 
  */
- @media screen and (max-width : 375px) {
+ @media screen and (max-width : 450px) {
   .btn-container {
     width: 50%;
     margin: 20px auto;
