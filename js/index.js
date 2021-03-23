@@ -1,4 +1,4 @@
-import {keydownSound, clickSound} from "/js/functions";
+import {keydownSound, clickSound} from "/js/functions.js";
 
 keydownSound();
 

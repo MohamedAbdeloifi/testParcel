@@ -17,7 +17,11 @@ body {
 #bg-image {
   filter: blur(5rem);
   -webkit-filter: blur(5rem);
-  transform :  translate(-12%,-90%) rotate(158deg) scale(5)
+  transform:  translate(-12%,-90%) rotate(158deg) scale(5);
+  -webkit-transform:  translate(-12%,-90%) rotate(158deg) scale(5);
+  -moz-transform:  translate(-12%,-90%) rotate(158deg) scale(5);
+  -ms-transform:  translate(-12%,-90%) rotate(158deg) scale(5);
+  -o-transform:  translate(-12%,-90%) rotate(158deg) scale(5);
 }
 
 main {
@@ -70,13 +74,17 @@ button:focus{
  @media screen and (max-width : 450px) {
   .btn-container {
     width: 50%;
-    margin: 20px auto;
+    margin: 15px auto;
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+  #bg-image-container {
+    display: none;
   }
   button{
     width: 80px;
     height: 80px;
+    padding: 10px;
     font-size: 0.8rem;
     box-shadow: -1px -1px 5px #4b5efc, -2px -8px 5px #5140fe, 0 -8px 5px #ae1ecb, 3px 6px 5px #d523a3, 1px 1px 5px #fe277e;
   }
